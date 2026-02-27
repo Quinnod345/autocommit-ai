@@ -1,0 +1,28 @@
+{
+  "name": "autocommit-ai",
+  "version": "1.0.0",
+  "description": "AI-powered git commit message generator. Stage your changes, run autocommit, get perfect conventional commits.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "autocommit": "./index.js",
+    "ac": "./index.js"
+  },
+  "keywords": ["git", "commit", "ai", "openai", "conventional-commits", "developer-tools", "cli", "automation"],
+  "author": "Oneiro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quinnod345/autocommit-ai"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Quinnod345"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
